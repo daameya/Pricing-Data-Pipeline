@@ -10,7 +10,7 @@ from pendulum import datetime
 from airflow.providers.amazon.aws.transfers.local_to_s3 import (
     LocalFilesystemToS3Operator,
 )
-from aiflow.providers.amazon.aws.operators.s3 import S3CreateBucketOperator
+from airflow.providers.amazon.aws.operators.s3 import S3CreateBucketOperator
 import os
 from include.create_mock_data import generate_mock_data
 
